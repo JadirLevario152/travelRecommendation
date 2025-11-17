@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - TravelBloom</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Barra de navegación simplificada -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>TravelBloom</h1>
+            </div>
+            <div class="nav-links">
+                <a href="travel_recommendation.html" class="nav-link">Inicio</a>
+                <a href="about.html" class="nav-link">Acerca de nosotros</a>
+                <a href="contact.html" class="nav-link active">Contáctanos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+        <section class="contact-section">
+            <h1 class="contact-title">CONTÁCTANOS</h1>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>¿Tienes alguna pregunta?</h2>
+                    <p>Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>📧 Email</h3>
+                            <p>info@travelbloom.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📞 Teléfono</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📍 Dirección</h3>
+                            <p>123 Avenida del Viajero<br>Ciudad Turística, CT 12345</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>🕒 Horario de atención</h3>
+                            <p>Lunes a Viernes: 9:00 - 18:00<br>Sábados: 10:00 - 14:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre completo *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
