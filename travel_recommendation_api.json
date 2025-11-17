@@ -5,46 +5,46 @@
         "name": "Australia",
         "cities": [
           {
-            "name": "Sydney, Australia",
-            "imageUrl": "enter_your_image_for_sydney.jpg",
-            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+            "name": "Sídney, Australia",
+            "imageUrl": "https://www.viajarsydney.com/img/que-visitar-sydney.jpg",
+            "description": "Una ciudad vibrante conocida por sus emblemáticos monumentos como la Ópera de Sídney y el Puente del Puerto de Sídney."
           },
           {
             "name": "Melbourne, Australia",
-            "imageUrl": "enter_your_image_for_melbourne.jpg",
-            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+            "imageUrl": "https://www.cruiseandtravel.co.uk/_gatsby/file/4b9f6add774f6a00098fdfa2f32d358f/98543_iStock-876026224-1024x705.jpg",
+            "description": "Un centro cultural famoso por su arte, gastronomía y diversos barrios."
           }
         ]
       },
       {
         "id": 2,
-        "name": "Japan",
+        "name": "Japón",
         "cities": [
           {
-            "name": "Tokyo, Japan",
-            "imageUrl": "enter_your_image_for_tokyo.jpg",
-            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+            "name": "Tokio, Japón",
+            "imageUrl": "https://blog.localadventures.mx/wp-content/uploads/2022/11/best-manga-anime-locations-japan.jpg",
+            "description": "Una bulliciosa metrópolis que combina tradición y modernidad, famosa por sus cerezos en flor y su rica cultura."
           },
           {
-            "name": "Kyoto, Japan",
-            "imageUrl": "enter_your_image_for_kyoto.jpg",
-            "description": "Known for its historic temples, gardens, and traditional tea houses."
+            "name": "Kioto, Japón",
+            "imageUrl": "https://content-viajes.nationalgeographic.com.es/medio/2024/06/27/templos-de-kioto_7677807a_240627130332_1280x853.jpg",
+            "description": "Conocida por sus templos históricos, jardines y casas de té tradicionales."
           }
         ]
       },
       {
         "id": 3,
-        "name": "Brazil",
+        "name": "Brasil",
         "cities": [
           {
-            "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "enter_your_image_for_rio.jpg",
-            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+            "name": "Río de Janeiro, Brasil",
+            "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0e/3b/66/8f.jpg",
+            "description": "Una ciudad animada conocida por sus impresionantes playas, vibrantes celebraciones de carnaval y monumentos icónicos."
           },
           {
-            "name": "São Paulo, Brazil",
-            "imageUrl": "enter_your_image_for_sao-paulo.jpg",
-            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+            "name": "São Paulo, Brasil",
+            "imageUrl": "https://imagenes.elpais.com/resizer/v2/OGFTRQZ6N4OPLQAPAJZ53G4NTA.jpg?auth=9c12b8c5eee3493a6541c490a9a7f4ce50ca6809c276977704cb5eafc30eaa74&width=1960&height=1470&smart=true",
+            "description": "El centro financiero con cultura diversa, artes y una vida nocturna vibrante."
           }
         ]
       }
@@ -52,30 +52,29 @@
     "temples": [
       {
         "id": 1,
-        "name": "Angkor Wat, Cambodia",
-        "imageUrl": "enter_your_image_for_angkor-wat.jpg",
-        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+        "name": "Angkor Wat, Camboya",
+        "imageUrl": "https://cdn-67ebd632c1ac1810207eacb0.closte.com/wp-content/uploads/2020/03/Templos-de-Angkor-Wat.jpg",
+        "description": "Un sitio Patrimonio de la Humanidad por la UNESCO y el monumento religioso más grande del mundo."
       },
       {
         "id": 2,
         "name": "Taj Mahal, India",
-        "imageUrl": "enter_your_image_for_taj-mahal.jpg",
-        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+        "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/c3/53.jpg",
+        "description": "Un símbolo icónico del amor y una obra maestra de la arquitectura mogol."
       }
     ],
     "beaches": [
       {
         "id": 1,
-        "name": "Bora Bora, French Polynesia",
-        "imageUrl": "enter_your_image_for_bora-bora.jpg",
-        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+        "name": "Bora Bora, Polinesia Francesa",
+        "imageUrl": "https://www.tahititourisme.cl/app/uploads/iris-images/156079/vue-aerienne-sur-le-lagon-de-bora-bora-a-stephane-mailion-photography-1920x1080-f50_50.webp",
+        "description": "Una isla conocida por sus impresionantes aguas turquesas y lujosos bungalows sobre el agua."
       },
       {
         "id": 2,
-        "name": "Copacabana Beach, Brazil",
-        "imageUrl": "enter_your_image_for_copacabana.jpg",
-        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+        "name": "Playa de Copacabana, Brasil",
+        "imageUrl": "https://www.cooperatingvolunteers.com/wp-content/uploads/2017/06/copacabana-rio-de-janeiro-14.jpg",
+        "description": "Una famosa playa en Río de Janeiro, Brasil, con un ambiente vibrante y vistas escénicas."
       }
     ]
   }
-  
